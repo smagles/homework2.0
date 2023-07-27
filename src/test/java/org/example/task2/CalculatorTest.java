@@ -1,6 +1,6 @@
 package org.example.task2;
 
-import org.example.task2.Calculator;
+
 import org.junit.Test;
 
 
@@ -124,7 +124,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         // When & Then
-        
+
         final int value = -25;
         assertThrows(IllegalArgumentException.class, () -> calculator.sqrt(value));
     }
